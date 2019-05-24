@@ -1,1 +1,8 @@
-{"version":2,"name":"python-flask-query-string-example","builds":[{"src":"**/*.py","use":"@now/python"},{"src":"css/**","use":"@now/static"}]}
+{
+  "version":2,
+  "name":"python-flask-query-string-example",
+  "builds":[
+    {"src":"**/*.py","use":"@now/python"},
+    {"src":"css/**","use":"@now/static"}
+  ]
+}
