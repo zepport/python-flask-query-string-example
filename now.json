@@ -4,5 +4,9 @@
   "builds":[
     {"src":"**/*.py","use":"@now/python"},
     {"src":"css/**","use":"@now/static"}
+  ],
+  "routes": [
+    {"src":"/customRoute/", "dest": "/index.py"},
+    {"src":"/customRoute", "dest": "/index.py"}
   ]
 }
